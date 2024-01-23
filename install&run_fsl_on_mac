@@ -1,0 +1,9 @@
+#installing fsl on Mac
+
+(1) Check the MacOS (my desk Mac has a Ventura 13 OS) 
+(2) Go to https://fsl.fmrib.ox.ac.uk/fsldownloads_registration and download the installation file 
+(3) Open the command line and enter the command: 
+    sudo python3 fslinstaller.py 
+*You MUST have python installed before you run this. 
+*If you get an error running this line, you may need to check/change the python version (you may need to put python, python2, python2.7 in place of python3) 
+*If you get an error that says: 'certificate verify failed: unable to get local user certificate (_ssl.c:1006)>], you need to go into the Python folder in the computer (Applications>Python) and double click on the Install Certificates.command file.  This will open a terminal and install the certificates 
